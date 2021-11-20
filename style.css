@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* making background for this section*/
+
+.backgroundSection{
+    background-image: url("img/Background_Section\ img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    /* text-align: center; */
+}
+
+
+
+
+/*end the section containing background*/
+
+/* start of navbar*/
+
+.navbar{
+    width: 87%;
+    height: 90px;
+    margin-top: 30px;
+    margin-left: 95px;
+    margin-right: 140px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+.queue{
+float: left;
+padding: 30px;
+text-align: center;
+}
+
+.leftli{
+    color: gray;
+    font-size: 15px;
+    padding-top: 31px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.leftli:hover , .leftli:active, .active{
+    background-color: #f2745f;
+    color: white;
+}
+
+
+.navhead{
+    margin-right: 211px;
+    margin-left: 23px;
+    margin-top: -5px;
+}
+
+
+
+/*End of navbar*/
+
+
+/* Start Section using content */
+.content{
+    height: 750px;
+    text-align: center;
+}
+
+
+.content h6{
+    color: white;
+    font-size: 23px;
+    padding-top: 275px;
+    color: white;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.content h2{
+    font-size: 80px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.content button{
+padding: 15px;
+margin-top: 20px;
+margin-right: 10px;
+margin-left: 20px;
+}
+
+.content .download{
+background-color: #46bae2;
+border-color: #46bae2;
+border-style: solid;
+}
+
+.content .details{
+    background-color: #f2745f;
+    border-color: #f2745f;
+    border-style: solid;
+}
+
+.content button a{
+    color: white;
+}
+
+.content .download:hover{
+    background-color: white;
+    border-color: white;
+}
+.content .download:hover a {
+    color: #46bae2;
+}
+
+.content .details:hover{
+    background-color: white;
+    border-color: white;
+}
+.content .details:hover a {
+    color: #f2745f;
+}
+
+/* End Section using content */
+
+
+/* start header and more */
+
+.section2{
+    width: 100%;
+    height: 280px;
+    /*! padding-top: 120px; */
+    background-color: #46bae2;
+    text-align: center;
+}
+
+.section2 h4{
+    font-size: 44px;
+    font-weight: 300;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 7px;
+}
+
+.section2 h6{
+    font-size: 17px;
+    color: white;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.section2 button{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 18px;
+    background-color: #46bae2;
+    border-style: solid;
+    border-color: white; 
+    border-width: thin;
+}
+
+.section2 button a{
+    color: white;
+}
+
+/* end of header and more */
+
+.fixedImg{
+    background-image: url("img/aboutus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 783px;
+    width: 100%;
+}
+
+/*start about us section*/
+
+.aboutus{
+    color: white;
+    width: 100%;
+    height: 1000px;
+}
+
+.id1{
+    width: 33.3%;
+    height: 503px;
+    background-color:  rgba(242, 116, 95, 0.75);
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 200px;
+    float: left;
+}
+
+
+.id2{
+    width: 33.3%;
+    height: 503px;
+    background-color:  rgba(54, 62, 80, 0.75);
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 200px;
+    float: left;
+}
+
+
+
+.id3{
+    width: 33.3%;
+    height: 503px;
+    background-color: rgba(70, 186, 226, 0.75);
+    color: white;
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 200px;
+    float: left;
+}
+
+
+.aboutus h3{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+.aboutus p{
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+    font-weight: 300;
+    margin-left: 35px;
+    margin-right: 35px;
+    text-align: center;
+    color: white;
+}
+
+/* start about1 */
+
+
+.about1{
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.about1 h4{
+    font-size: 30px;
+    padding-top: 70px;
+    margin-bottom: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #121212;
+}
+
+.about1 p{
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 70px;
+    text-align: center;
+    letter-spacing: .25px;
+    line-height: 26px;
+   color: #7a7a7a;
+}
+
+/* end of about1 */
+
+
+/**/
+
+.box1{
+    width: 7.842%;
+    height: 20px;
+    margin-left: -15px; 
+    background-color: white;
+    float: left;
+}
+
+.box{
+    width: 15.684%;
+    height: 215px;
+    background-color: #f4f4f4;
+    margin-left: 20px;
+    padding-top: 65px;
+    float: left; 
+    text-align: center;
+}
+
+.box h4{
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 21px;
+    color: black;
+}
+
+
+/*end of boxs*/
+
+.about3{
+    width: 100%;
+    height: 490px;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    float: left;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.uniquebox{
+    width: 9.1%;
+    height: 260px;
+    background-color: white;
+    float: left;  
+}
+
+.unique{
+    height:260px;
+    width: 40.69%;
+    margin-right: 20px;
+    float: left;
+}
+
+
+.uniqueandimg img{
+    float: left;
+    width: 40.69%;
+    height: 260px;
+}
+
+
+.unique h4{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.unique p{
+    color: #7a7a7a;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    text-align: start;
+}
+
+.unique button{
+    padding: 12px 25px;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #46bae2;
+    border-style: solid;
+    border-color: #46bae2;
+}
+
+.unique button a{
+    color: white;
+}
+
+/**
+.boxhover :hover{
+    background-color: #f2745f;
+    color: white;
+}**/
+
+
+/*end of about us section*/
+
+
+
+
+/* start Portofolio Section */
+
+.portofolio{
+    width: 100%;
+    height: 750px;
+    background-color: rgb(54, 62, 80);
+    overflow: hidden;
+}
+
+.portofolio1 h4{
+    font-size: 30px;
+    padding-top: 70px;
+    margin-bottom: 25px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.portofolio1 p{
+    margin-left: 440px;
+    margin-right: 450px;
+    margin-bottom: 70px;
+    text-align: center;
+    letter-spacing: .25px;
+    line-height: 26px;
+   color: #aaaa;
+}
+
+.hez-scroll{
+    max-height: 350px;
+    display: flex;
+    overflow-y: hidden;   
+    overflow-x: auto; 
+}
+
+
+.hez-scroll img{
+    width: 270px;
+    height: 320px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+.boxside1{
+    width: 7.842%;
+    height: 20px;
+    margin-left: -15px; 
+    background-color: rgb(54, 62, 80);
+    float: left;
+}
+
+
+/* start Portofolio Section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
